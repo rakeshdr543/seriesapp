@@ -1,23 +1,21 @@
 import React from 'react'
 
-const Search = ({handleSubmit,selectHandler,keyword,handleChange}) => {
+const Search = ({selectHandler}) => {
     return (
-        <div>
-             <ul>
-      <li>
+        <div >
+      {/* <li>
       <form onSubmit={handleSubmit}>
       <input type='text'  placeholder='Search...' value={keyword} onChange={handleChange}/>
       <input type='submit' />
     </form>
 
-      </li>
-      <li>
-        <select onChange={selectHandler}>
+      </li> */}
+  
+        <select onChange={selectHandler} className='filter'>
           <option value='characters'>Characters</option>
           <option value='episodes'>Episodes</option>
         </select>
-      </li>
-    </ul>
+     
         </div>
     )
 }

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const LoginScreen = ({loggedIn,loginHandler}) => {
     const [email,setEmail]=useState('');
@@ -26,19 +27,21 @@ const LoginScreen = ({loggedIn,loginHandler}) => {
         }
         else{
             setValidation(true)
-            
-            loginHandler();
+            Authenticate();
             
         }
     }
     const submitHandler=(e)=>{
         e.preventDefault();
-        checkAuth();
-        
+        checkAuth();   
     }
+  const Authenticate=()=>{
+    localStorage.setItem('islogged',JSON.stringify(true))
+    console.log('authenticated');
+  }
 
     return (
-        <div>
+        <div className='form'>
        
             <form onSubmit={submitHandler} >
                 <ul className='form-container'>
@@ -63,6 +66,9 @@ const LoginScreen = ({loggedIn,loginHandler}) => {
                 </li>
                 <li style={{color:'red'}}>
                     {!validation && 'The email and password you entered did not match our records.'}
+                </li>
+                <li>
+                <Link to='/forgot'>Forgot password?</Link>
                 </li>
 
                 </ul>
