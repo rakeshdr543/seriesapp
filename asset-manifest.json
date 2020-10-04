@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/seriesapp/static/css/main.f4a18ab1.chunk.css",
+    "main.js": "/seriesapp/static/js/main.cfb95ffc.chunk.js",
+    "main.js.map": "/seriesapp/static/js/main.cfb95ffc.chunk.js.map",
+    "runtime-main.js": "/seriesapp/static/js/runtime-main.b2cea80a.js",
+    "runtime-main.js.map": "/seriesapp/static/js/runtime-main.b2cea80a.js.map",
+    "static/js/2.cf164db5.chunk.js": "/seriesapp/static/js/2.cf164db5.chunk.js",
+    "static/js/2.cf164db5.chunk.js.map": "/seriesapp/static/js/2.cf164db5.chunk.js.map",
+    "index.html": "/seriesapp/index.html",
+    "precache-manifest.6853369d4cf659ab1c47174f0d6b45a7.js": "/seriesapp/precache-manifest.6853369d4cf659ab1c47174f0d6b45a7.js",
+    "service-worker.js": "/seriesapp/service-worker.js",
+    "static/css/main.f4a18ab1.chunk.css.map": "/seriesapp/static/css/main.f4a18ab1.chunk.css.map",
+    "static/js/2.cf164db5.chunk.js.LICENSE.txt": "/seriesapp/static/js/2.cf164db5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b2cea80a.js",
+    "static/js/2.cf164db5.chunk.js",
+    "static/css/main.f4a18ab1.chunk.css",
+    "static/js/main.cfb95ffc.chunk.js"
+  ]
+}
